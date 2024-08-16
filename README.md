@@ -61,7 +61,7 @@ docker volume create my-HAMLET-volume
 Run the docker image to perform HAMLET on Adult and COMPAS:
 
 ```
-docker run -it --volume /var/run/docker.sock:/var/run/docker.sock --volume my-HAMLET-volume:/test ghcr.io/aaai-25/HAMLET-fairness:1.0.0 [metric] [sensitive_attribute] my-HAMLET-volume
+docker run -it --volume /var/run/docker.sock:/var/run/docker.sock --volume my-HAMLET-volume:/test ghcr.io/aaai-25/hamlet-fairness:1.0.0 [metric] [sensitive_attribute] my-HAMLET-volume
 ```
 Specifically, you can choose the fair metric to optimize and the sensitive attribute to consider:
 - **[metric]**: you can choose among *demographic_parity_ratio* and *equalized_odds_ratio*;
