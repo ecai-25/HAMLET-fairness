@@ -1,6 +1,6 @@
-# Enforcing Fairness in AI with HAMLET: A Human-Centered Approach via AutoML and Argumentation
+# HAMLET4fairness: A Human-Centered Approach for AI Fairness Enforcing via AutoML and Argumentation
 
-This is the repository for reproducing the experiments performed in **Enforcing Fairness in AI with HAMLET: A Human-Centered Approach via AutoML and Argumentation**.
+This is the repository for reproducing the experiments performed in **HAMLET4fairness: A Human-Centered Approach for AI Fairness Enforcing via AutoML and Argumentation**.
 
 If you are interest in discovering HAMLET as an end-to-end AutoML framework, please refer to the [GitHub repository](https://github.com/aaai-25/HAMLET) 
 
